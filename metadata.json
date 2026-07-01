@@ -1,0 +1,6 @@
+{
+  "name": "Muhenga Sport",
+  "description": "Premium Live Sports Streaming Website featuring live matches, statistics, and immersive streams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
