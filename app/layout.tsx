@@ -27,3 +27,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     </html>
   );
 }
+
+
+if (typeof window !== "undefined") {
+  const stopHijack = (e) => {
+    e.stopImmediatePropagation();
+  };
+
+  document.addEventListener("click", stopHijack, true);
+}
